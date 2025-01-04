@@ -1,5 +1,6 @@
 -- Project Details --
 describe ksproject;
+
 -- check duplicate --
 with check_duplicate as(
 select *,
@@ -11,6 +12,7 @@ where dup_rwn > 1;
 -- no duplicate by id number --
 
 -- Find successfull, failed, & cancelled projects --
+-- Successful --
 with success_projects as(
 select id, main_category,
 case state when "successful" then 1 else 0 end as success_parity
@@ -22,6 +24,7 @@ from success_projects
 group by main_category
 order by success_rate desc
 limit 5;
+
 -- Failed --
 with failed_projects as(
 select id, main_category,
@@ -34,6 +37,7 @@ from failed_projects
 group by main_category
 order by failed_rate desc
 limit 5;
+
 -- Canceled --
 with canceled_projects as(
 select id, main_category,
@@ -47,8 +51,7 @@ group by main_category
 order by canceled_rate desc
 limit 5;
 
--- Which category within main category with highest pledged
--- amount, most backers
+-- Which category within the main category with the highest pledged amount, and most backers
 select main_category, category,
 round(sum(usd_pledged_real),2) as project_pledged_amount,
 sum(backers) as project_backers
@@ -56,7 +59,8 @@ from ksproject
 group by main_category, category
 order by project_pledged_amount desc
 limit 10;
--- Which country host most successful projects
+
+-- Which country hosts the most successful projects
 with success_projects as(
 select id, country,
 case state when "successful" then 1 else 0 end as success_parity
@@ -69,8 +73,7 @@ group by country
 order by total_projects desc
 limit 5;
 
--- How many projects in main_category meet their goal, 
--- and average pledge on these projects
+-- How many projects in main_category meet their goal,and average pledge on these projects
 select main_category, category, country,
 round(sum(usd_goal_real),2) as project_goal_amount,
 round(sum(usd_pledged_real),2) as project_pledged_amount,
@@ -86,6 +89,7 @@ with success_project_trend as(
 select id, month(date(launched)) as project_launched_month, month(date(deadline)) as project_deadline_month,
 case state when "successful" then 1 else 0 end as success_parity
 from ksproject)
+
 -- For launched month --
 select project_launched_month,
 round(sum(success_parity)*100/count(id),2) as success_rate
