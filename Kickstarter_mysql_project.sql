@@ -135,6 +135,12 @@ select year, main_category, category
 from project_performance
 where rwn = 1;
 
+-- Backer Behaviour --
+select main_category,
+round(sum(usd_pledged_real)/sum(backers),2) as pledged_by_backer_ratio
+from ksproject
+group by main_category
+order by pledged_by_backer_ratio desc;
 
 
 
