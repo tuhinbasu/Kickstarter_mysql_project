@@ -137,7 +137,7 @@ from optimal_duration
 group by main_category
 order by project_duration desc;
 
--- How can analyzing category trends over the years, based on success, failure, and cancellation rates, 
+-- 7. How can analyzing category trends over the years, based on success, failure, and cancellation rates, 
 -- help identify top-performing categories and those with untapped potential?
 with project_year as(
 select year(date(launched)) as year, main_category, category,
@@ -155,12 +155,11 @@ row_number()over(partition by year order by success_parity desc) as rwn
 from project_year)
 
 select year, main_category, category
-from project_performance
+from project_success_performance
 where rwn = 1;
 
 -- Insert the below code for --
 -- Failed project performance over the years--
-Failed
 project_failed_performance as(
 select year, main_category, category,
 row_number()over(partition by year order by failed_parity desc) as rwn
@@ -180,11 +179,5 @@ from project_year)
 select year, main_category, category
 from project_cancelled_performance
 where rwn = 1;
-
-
-
-
-
-
 
 
