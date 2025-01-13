@@ -91,7 +91,7 @@ I utilized CTEs to create temporary tables, improving the readability, reusabili
 <h2>Feedback</h2>
 <p>
 
-If you have any feedback, please reach out to [tuhinbasu97@gmail.com](tuhinbasu97@gmail.com) or [linkedIn](https://www.linkedin.com/in/tuhinbasu)
+If you have any feedback, please reach out to [tuhinbasu97@gmail.com](tuhinbasu97@gmail.com) or connect with me on [linkedIn](https://www.linkedin.com/in/tuhinbasu)
 </p>
 
 <h2>About Me</h2>
