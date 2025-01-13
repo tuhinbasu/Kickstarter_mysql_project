@@ -18,7 +18,9 @@
 
 <h2><u></u>Dataset</u></h2>
 <p>
-This dataset includes 12 columns, each capturing essential details about Kickstarter projects:
+Kickstarter Projects(https://www.kaggle.com/datasets/kemical/kickstarter-projects)
+  
+<h3>This dataset includes 15 columns, each capturing essential details about Kickstarter projects:</h3>
 
 1. ID: A unique identifier for each project. This serves as the primary key for data reference.
 2. name: The title of the project. This gives insights into how projects are marketed and named.
@@ -36,6 +38,7 @@ This dataset includes 12 columns, each capturing essential details about Kicksta
   * successful: Fully funded or surpassed the goal.
   * failed: Did not meet the funding goal.
   * canceled: Campaign ended prematurely by the creator.
-  * live: Campaign still ongoing (if any live campaigns exist in the dataset).
 14. backers: The total number of individuals who pledged money to support the project.
 15. country: The country of the project creator, indicating where the campaign originated.</p>
+
+
