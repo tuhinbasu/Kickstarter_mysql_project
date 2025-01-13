@@ -11,8 +11,8 @@
 
 <h2><u></u>Objectives:</u></h2>
 <p>
-  1. Provide strategic recommendations to Kickstarter stakeholders to enhance campaign success rates.
-  2. Identify key factors that attract backers and boost engagement.
-  3. Highlight growth opportunities to strengthen Kickstarter’s platform performance.
+  1. Provide strategic recommendations to Kickstarter stakeholders to enhance campaign success rates. <br>
+  2. Identify key factors that attract backers and boost engagement.<br>
+  3. Highlight growth opportunities to strengthen Kickstarter’s platform performance.<br>
 </p>
 
