@@ -2,21 +2,21 @@
 
 ![image](https://github.com/user-attachments/assets/89897c3d-2b72-45f8-a9e5-1852da3cc6b9)
 
-<h2><u></u>About the Company</u></h2>
+<h2><u>About the Company</u></h2>
 
 ![image](https://github.com/user-attachments/assets/4aead152-12fc-46f7-a772-096e9a9e689f)
 
 <p>Kickstarter is a crowdfunding platform that helps creators secure funding for their projects through contributions from backers. It emphasizes creative fields such as art, technology, design, and entertainment.
 </p>
 
-<h2><u></u>Objectives:</u></h2>
+<h2><u>Objectives:</u></h2>
 <p>
   1. Provide strategic recommendations to Kickstarter stakeholders to enhance campaign success rates. <br>
   2. Identify key factors that attract backers and boost engagement.<br>
   3. Highlight growth opportunities to strengthen Kickstarter’s platform performance.<br>
 </p>
 
-<h2><u></u>Dataset</u></h2>
+<h2><u>Dataset</u></h2>
 
 [Kickstarter Projects](https://www.kaggle.com/datasets/kemical/kickstarter-projects)
 <p>
@@ -41,7 +41,7 @@
 14. backers: The total number of individuals who pledged money to support the project.
 15. country: The country of the project creator, indicating where the campaign originated.</p>
 
-<h2><u></u>Potential Applications of the Dataset</u></h2>
+<h2><u>Potential Applications of the Dataset</u></h2>
 <p>
 <h3>This dataset allows us to analyze trends and patterns across Kickstarter projects, such as:</h3>
 
@@ -51,12 +51,12 @@
 4. Evaluating the impact of funding goals, backers, and project timelines on success rates.
 5. Identifying underperforming categories or regions that may need additional support.</p>
 
-<h2><u></u>Implementation</u></h2>
+<h2><u>Implementation</u></h2>
 Language: MySQL<br>
 Platform: MySQL Workbench 8.0 and PowerBI (for visualization)<br>
 Presentation & Documentation: MS PowerPoint Presentation and Google Doc<br>
 
-<h2><u></u>Visualization</u></h2>
+<h2><u>Visualization</u></h2>
 <p>1. Which are the high and low-performing categories?</p>
 
 ![image](https://github.com/user-attachments/assets/8bdc48bf-4f9d-4810-9b4d-a10f652b3808)
@@ -84,5 +84,17 @@ Presentation & Documentation: MS PowerPoint Presentation and Google Doc<br>
 <p>7. How can analyzing category trends over the years, based on success, failure, and cancellation rates, help identify top-performing categories and those with untapped potential?</p>
 
 ![image](https://github.com/user-attachments/assets/bf473d3f-b378-4df3-9cde-d292ac58e2b5)
+
+<h2><u>Optimization</u></h2>
+I utilized CTEs to create temporary tables, improving the readability, reusability, and efficiency of the queries. Additionally, I incorporated the LIMIT clause to enhance query performance. Redundant and inaccurate columns, such as goal, pledged, and usd_pledged, were removed, reducing the total number of rows from 15 to 12.
+
+<h2>Feedback</h2>
+If you have any feedback, please reach out at tuhinbasu97@gmail.com or [linkedIn](https://www.linkedin.com/in/tuhinbasu/)
+
+<h2>About Me</h2>
+Hello, My name is Tuhin Basu.<br>
+I am a Data Analyst in training. 
+
+
 
 
