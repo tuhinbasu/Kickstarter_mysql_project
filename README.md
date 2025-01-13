@@ -52,8 +52,8 @@
 5. Identifying underperforming categories or regions that may need additional support.
 </p>
 <h2><u></u>Implementation</u></h2>
-Language: MySQL
-Platform: MySQL Workbench 8.0 and PowerBI (for visualization)
-Presentation & Documentation: MS PowerPoint Presentation and Google Doc
+Language: MySQL<br>
+Platform: MySQL Workbench 8.0 and PowerBI (for visualization)<br>
+Presentation & Documentation: MS PowerPoint Presentation and Google Doc<br>
 
 
