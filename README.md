@@ -9,3 +9,10 @@
 <p>Kickstarter is a crowdfunding platform that helps creators secure funding for their projects through contributions from backers. It emphasizes creative fields such as art, technology, design, and entertainment.
 </p>
 
+<h2><u></u>Objectives:</u></h2>
+<p>
+  1. Provide strategic recommendations to Kickstarter stakeholders to enhance campaign success rates.
+  2. Identify key factors that attract backers and boost engagement.
+  3. Highlight growth opportunities to strengthen Kickstarter’s platform performance.
+</p>
+
