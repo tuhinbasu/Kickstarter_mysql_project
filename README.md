@@ -59,7 +59,8 @@ Presentation & Documentation: MS PowerPoint Presentation and Google Doc<br>
 <h2><u></u>Visualization</u></h2>
 <p>1. Which are the high and low-performing categories?</p>
 
-![image](https://github.com/user-attachments/assets/70fae395-77aa-42ee-9dcf-abf2bc31ffe7)
+![image](https://github.com/user-attachments/assets/8bdc48bf-4f9d-4810-9b4d-a10f652b3808)
+
 
 
 
