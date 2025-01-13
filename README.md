@@ -89,11 +89,10 @@ Presentation & Documentation: MS PowerPoint Presentation and Google Doc<br>
 I utilized CTEs to create temporary tables, improving the readability, reusability, and efficiency of the queries. Additionally, I incorporated the LIMIT clause to enhance query performance. Redundant and inaccurate columns, such as goal, pledged, and usd_pledged, were removed, reducing the total number of rows from 15 to 12.
 
 <h2>Feedback</h2>
-<p>If you have any feedback, please reach out to
+<p>
 
-[tuhinbasu97@gmail.com](tuhinbasu97@gmail.com) or 
-
-[linkedIn](https://www.linkedin.com/in/tuhinbasu)</p>
+If you have any feedback, please reach out to [tuhinbasu97@gmail.com](tuhinbasu97@gmail.com) or [linkedIn](https://www.linkedin.com/in/tuhinbasu)
+</p>
 
 <h2>About Me</h2>
 <p>Hello, My name is Tuhin Basu.<br>
