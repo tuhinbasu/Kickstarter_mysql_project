@@ -18,7 +18,7 @@
 
 <h2><u></u>Dataset</u></h2>
 <p>
-Kickstarter Projects (https://www.kaggle.com/datasets/kemical/kickstarter-projects)
+[Kickstarter Projects](https://www.kaggle.com/datasets/kemical/kickstarter-projects)
   
 <h3>This dataset includes 15 columns, each capturing essential details about Kickstarter projects:</h3>
 
