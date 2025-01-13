@@ -20,23 +20,22 @@
 <p>
 This dataset includes 12 columns, each capturing essential details about Kickstarter projects:
 
-ID: A unique identifier for each project. This serves as the primary key for data reference.
-name: The title of the project. This gives insights into how projects are marketed and named.
-category: The specific niche or subcategory of the project (e.g., “Tabletop Games” or “Documentary”). 
-main_category: The broader category under which the project falls (e.g., “Games” or “Film & Video”).
-currency: The type of currency used for the project funding (e.g., USD, GBP, EUR).
-deadline: The date when the campaign ended or was due to end.
-goal: The funding goal set by the project creator (in the project’s respective currency).
-launched: The date and time when the campaign was launched, indicating the start of the crowdfunding period.
-pledged: The total amount of money pledged by backers at the end of the campaign (in the project’s respective currency).
-usd_pledged: This column represents the amount of money pledged for a project, converted to US dollars by Kickstarter's internal currency conversion system.
-usd_goal_real:  The total amount of money pledged by backers at the end of the campaign (in USD)
-usd_pledged_real: This column represents the pledged amount, converted to US dollars using exchange rates provided by an external service, Fixer.io API.
-state: The final status of the project, which can be:
+1. ID: A unique identifier for each project. This serves as the primary key for data reference.
+2. name: The title of the project. This gives insights into how projects are marketed and named.
+3. category: The specific niche or subcategory of the project (e.g., “Tabletop Games” or “Documentary”). 
+4. main_category: The broader category under which the project falls (e.g., “Games” or “Film & Video”).
+5. currency: The type of currency used for the project funding (e.g., USD, GBP, EUR).
+6. deadline: The date when the campaign ended or was due to end.
+7. goal: The funding goal set by the project creator (in the project’s respective currency).
+8. launched: The date and time when the campaign was launched, indicating the start of the crowdfunding period.
+9. pledged: The total amount of money pledged by backers at the end of the campaign (in the project’s respective currency).
+10. usd_pledged: This column represents the amount of money pledged for a project, converted to US dollars by Kickstarter's internal currency conversion system.
+11. usd_goal_real:  The total amount of money pledged by backers at the end of the campaign (in USD)
+12. usd_pledged_real: This column represents the pledged amount, converted to US dollars using exchange rates provided by an external service, Fixer.io API.
+13. state: The final status of the project, which can be:
   * successful: Fully funded or surpassed the goal.
   * failed: Did not meet the funding goal.
   * canceled: Campaign ended prematurely by the creator.
   * live: Campaign still ongoing (if any live campaigns exist in the dataset).
-backers: The total number of individuals who pledged money to support the project.
-country: The country of the project creator, indicating where the campaign originated.
-</p>
+14. backers: The total number of individuals who pledged money to support the project.
+15. country: The country of the project creator, indicating where the campaign originated.</p>
