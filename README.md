@@ -17,9 +17,9 @@
 </p>
 
 <h2><u></u>Dataset</u></h2>
-<p>
+
 [Kickstarter Projects](https://www.kaggle.com/datasets/kemical/kickstarter-projects)
-  
+<p>
 <h3>This dataset includes 15 columns, each capturing essential details about Kickstarter projects:</h3>
 
 1. ID: A unique identifier for each project. This serves as the primary key for data reference.
