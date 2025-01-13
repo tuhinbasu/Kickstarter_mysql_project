@@ -49,11 +49,28 @@
 2. Exploring category and country-specific performance.
 3. Analyzing seasonal trends in project launches and success.
 4. Evaluating the impact of funding goals, backers, and project timelines on success rates.
-5. Identifying underperforming categories or regions that may need additional support.
-</p>
+5. Identifying underperforming categories or regions that may need additional support.</p>
+
 <h2><u></u>Implementation</u></h2>
 Language: MySQL<br>
 Platform: MySQL Workbench 8.0 and PowerBI (for visualization)<br>
 Presentation & Documentation: MS PowerPoint Presentation and Google Doc<br>
+
+<h2><u></u>Visualization</u></h2>
+<p>1. Which are the high and low-performing categories?</p>
+
+![image](https://github.com/user-attachments/assets/70fae395-77aa-42ee-9dcf-abf2bc31ffe7)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
