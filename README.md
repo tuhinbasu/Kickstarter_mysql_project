@@ -41,4 +41,15 @@
 14. backers: The total number of individuals who pledged money to support the project.
 15. country: The country of the project creator, indicating where the campaign originated.</p>
 
+<h2><u></u>Potential Applications of the Dataset</u></h2>
+<p>
+This dataset allows us to analyze trends and patterns across Kickstarter projects, such as:
+
+1. Understanding the characteristics of successful campaigns.
+2. Exploring category and country-specific performance.
+3. Analyzing seasonal trends in project launches and success.
+4. Evaluating the impact of funding goals, backers, and project timelines on success rates.
+5. Identifying underperforming categories or regions that may need additional support.
+</p>
+
 
