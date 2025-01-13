@@ -43,7 +43,7 @@
 
 <h2><u></u>Potential Applications of the Dataset</u></h2>
 <p>
-This dataset allows us to analyze trends and patterns across Kickstarter projects, such as:
+<h3>This dataset allows us to analyze trends and patterns across Kickstarter projects, such as:</h3>
 
 1. Understanding the characteristics of successful campaigns.
 2. Exploring category and country-specific performance.
@@ -51,5 +51,9 @@ This dataset allows us to analyze trends and patterns across Kickstarter project
 4. Evaluating the impact of funding goals, backers, and project timelines on success rates.
 5. Identifying underperforming categories or regions that may need additional support.
 </p>
+<h2><u></u>Implementation</u></h2>
+Language: MySQL
+Platform: MySQL Workbench 8.0 and PowerBI (for visualization)
+Presentation & Documentation: MS PowerPoint Presentation and Google Doc
 
 
