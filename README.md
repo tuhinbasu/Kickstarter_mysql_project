@@ -61,17 +61,28 @@ Presentation & Documentation: MS PowerPoint Presentation and Google Doc<br>
 
 ![image](https://github.com/user-attachments/assets/8bdc48bf-4f9d-4810-9b4d-a10f652b3808)
 
+<p>2. Which categories have significant pledged amounts and a high number of backers?</p>
 
+![image](https://github.com/user-attachments/assets/8b2121d1-dbed-41b8-bd55-b181c92056fa)
 
+<p>3. Analyse & identify the relationship between the backers and the categories.</p>
 
+![image](https://github.com/user-attachments/assets/f0f9b7b2-695e-4a93-916a-6acad020c6de)
 
+<p>4. Which countries have the highest number of successful projects?</p>
 
+![image](https://github.com/user-attachments/assets/5097275a-8a0b-4057-86b0-7df2f521d58d)
 
+<p>5. How can we identify the categories that exceed their project goals and determine the average pledged amount by backers?</p>
 
+![image](https://github.com/user-attachments/assets/6d0d4b3a-064d-4817-954e-ca0482e86690)
 
+<p>6. How can the optimal project duration and months with high success rates be identified?</p>
 
+![image](https://github.com/user-attachments/assets/3d98f22b-eda6-4368-ad51-5a68481c50a1)
 
+<p>7. How can analyzing category trends over the years, based on success, failure, and cancellation rates, help identify top-performing categories and those with untapped potential?</p>
 
-
+![image](https://github.com/user-attachments/assets/bf473d3f-b378-4df3-9cde-d292ac58e2b5)
 
 
